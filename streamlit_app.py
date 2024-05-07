@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import sklearn
+print(sklearn.__version__)
 
 # Function to load a pre-trained model from a file
 def load_model(model_path):
